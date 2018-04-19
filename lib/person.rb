@@ -1,9 +1,9 @@
 class Person
-  def name=(person_name)
+  def name=(person_name) #setter
     @name = person_name
   end
 
-  def name #
+  def name #getter
     @name
   end
 
