@@ -7,6 +7,8 @@ class Person
     @name
   end
 
+#you need to set it before you can get it.
+
   def job=(person_job)
     @job = person_job
   end
